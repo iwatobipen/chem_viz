@@ -8,9 +8,7 @@ app = marimo.App()
 def __():
     import marimo as mo
     import chemviz
-    import panel as pn
-    from panel_chemistry.widgets import JSMEEditor
-    return JSMEEditor, chemviz, mo, pn
+    return chemviz, mo
 
 
 @app.cell
